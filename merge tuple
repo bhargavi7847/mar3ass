@@ -1,0 +1,8 @@
+list1=[1,2,3]
+list2=['a','b','c']
+new_list=list(zip(list1,list2))
+print(new_list)
+
+
+OUTPUT:
+[(1, 'a'), (2, 'b'), (3, 'c')]
